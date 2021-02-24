@@ -141,3 +141,13 @@ wendefrei = \markup {
     }
   }
 }
+
+italictext = { 
+  \override LyricText.font-shape = #'italic
+}
+
+uprighttext = {
+  \override LyricText.font-shape = #'upright
+}
+
+ficta = { \once \set suggestAccidentals = ##t }

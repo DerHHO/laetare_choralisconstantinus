@@ -41,11 +41,13 @@ globalIntroitusLaetareCConst = {
   \bar "||"
   \revert Stem.length
   \undo \omit Dots
+  \set Score.currentBarNumber = 1
 }
 
 vorspielpausenIntroitusLaetareCConst = {
 
 }
+
 
 
 gregorianikEinfügungIntroitusLaetareCConst = {
@@ -111,9 +113,9 @@ sopranNotenIntroitusLaetareCConst = \tempTranspose \relative g' {
   g1 r2 g |
   a1( b) |
   b( a) |
-  b\breve |
+  d\breve |
   R1*2 |
-  g1 a( |
+  g,1 a( |
   b) b1 | \mBreak
   a1 d( |
   e d |
@@ -159,12 +161,12 @@ sopranNotenIntroitusLaetareCConst = \tempTranspose \relative g' {
 
 sopranTextIntroitusLaetareCConst = \lyricmode {
   Læ -- ta -- re
-  Hie -- ru -- sa -- lem et con -- ven -- tum
+  Hie -- ru -- sa -- lem: et con -- ven -- tum
   om -- nes
   gau -- de -- te cum læ --
   ti -- ti -- a,
   fu -- i --
-  stis et __
+  stis: et __
   sa -- ti -- e -- mi -- ni
   ab u -- be -- ri -- bus con -- so -- la --
   ti -- o --
@@ -264,19 +266,19 @@ altNotenIntroitusLaetareCConst = \tempTranspose \relative c' {
 }
 
 altTextIntroitusLaetareCConst = \lyricmode {
-  Hie -- ru -- sa -- lem et con -- ven -- tum
+  Hie -- ru -- sa -- lem: et con -- ven -- tum
   om -- nes
   gau -- de -- te cum __
   læ -- ti -- ti -- a, qui in tri -- sti --
   ti -- a __ fu --
-  i -- stis ut ex -- ul -- te --
-  tis et sa -- ti -- e -- mi -- ni ab
+  i -- stis: ut ex -- ul -- te --
+  tis, et sa -- ti -- e -- mi -- ni ab
   u -- be - ri -- bus con -- so -- la -- ti -- o -- nis con --
   so -- la -- ti -- o -- nis con -- so -- la -- ti -- o --
   nis e -- ius. __
 
   In do -- mum Do -- mi --
-  ni i -- bi -- mus __ i -- bi -- mus. __
+  ni i -- bi -- mus __ \italictext i -- bi -- \uprighttext mus. __
 
 }
 
@@ -359,12 +361,12 @@ tenorNotenIntroitusLaetareCConst = \tempTranspose \relative g {
 }
 
 tenorTextIntroitusLaetareCConst = \lyricmode {
-  Hie -- ru -- sa -- lem fa -- ci -- te
+  Hie -- ru -- sa -- lem: fa -- ci -- te
   qui di -- li -- gi --
   tis __ e -- am: gau -- de -- te cum __
-  cum læ -- ti -- a,
+  læ -- ti -- ti -- a,
   fu -- i
-  stis
+  stis:
   et sa -- ti -- e -- mi -- ni __
   ab u -- be -- ri -- bus con --
   so -- la -- ti -- o --
@@ -465,18 +467,18 @@ bassNotenIntroitusLaetareCConst = \tempTranspose \relative g, {
 }
 
 bassTextIntroitusLaetareCConst = \lyricmode {
-  Hie -- ru -- sa -- lem fa --
+  Hie -- ru -- sa -- lem: fa --
   ci -- te om -- nes, qui di -- li -- gi -- tis __
   e -- am: __ gau -- de -- te cum __
   cum læ -- ti -- ti -- a, qui in -- tri --
   sti -- ti -- a __ fu -- i -- _
-  stis ut ex -- ul -- te -- tis
+  stis: ut ex -- ul -- te -- tis,
   et sa -- ti -- e -- mi -- ni
-  ab u -- be -- ri -- bus con -- so -- la -- ti -- o -- nis
-  con -- so -- la -- ti -- o -- nis
-  e -- ius. __
+  ab u -- be -- ri -- bus con -- so -- la -- ti -- o -- nis,
+  \italictext con -- so -- la -- ti -- o -- nis
+  \uprighttext e -- ius. __
   In do -- mum Do --
-  mi -- ni i -- bi -- mus i -- _ bi -- mus. __
+  mi -- ni i -- bi -- mus \italictext i -- _ bi -- \uprighttext mus. __
 }
 
 metronomZeileIntroitusLaetareCConst = \drummode {

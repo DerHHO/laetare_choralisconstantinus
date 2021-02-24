@@ -137,13 +137,13 @@ sopranNotenTractusLaetareCConst = \tempTranspose \relative a' {
 
 sopranTextTractusLaetareCConst = \lyricmode {
   Qui con -- fi -- dunt in __
-  Do -- mi -- no si --
-  cut mons Sy --
+  Do -- mi -- no sic --
+  ut mons Sy --
   on Sy -- on __
   non com -- mo -- ve -- bi
   tur in æ -- ter --
-  num __ in æ -- ter -- num, __
-  qui ha -- bi -- tat
+  num __ \italictext in æ -- ter -- num, __
+  \uprighttext qui ha -- bi -- tat
   in Je -- ru --
   sa -- lem. Mon -- 
   tes in cir -- cu -- i --
@@ -383,21 +383,21 @@ tenorNotenTractusLaetareCConst = \tempTranspose \relative c' {
 
 tenorTextTractusLaetareCConst = \lyricmode {
   In __ Do --
-  mi -- no si -- cut, si -- cut mons,
-  mons Sy -- on Sy --
+  mi -- no sic -- ut, \italictext sic -- ut mons, \uprighttext
+  mons Sy -- on \italictext Sy --
   on si -- cut mons Sy -- on __
-  non, non com -- mo -- ve -- bi -- tur, non com --
-  mo -- ve -- bi -- tur in æ -- ter --
-  num qui __ ha -- bi -- tat, qui  __
-  ha -- bi -- tat in __ Hie --
-  ru -- sa -- lem, __ Je -- ru -- 
+  non, \uprighttext non com -- mo -- ve -- bi -- tur, \italictext non com --
+  mo -- ve -- bi -- tur __ \uprighttext in æ -- ter --
+  num \italictext qui __ ha -- bi -- tat, \uprighttext qui  __
+  ha -- bi -- tat in __ \italictext Hie --
+  ru -- sa -- lem, __ \uprighttext Je -- ru -- 
   sa -- lem. Mon --
-  tes in cir -- cu -- i --
-  tu e -- _ jus ex __
+  tes __ in __ cir -- cu -- i --
+  tu \italictext e -- _ jus \uprighttext ex __
   hoc nunc et us -- que __
   in se -- cu -- lum se --
-  e -- cu -- li se __ e __ e __
-  cu -- li. __
+  \italictext se -- cu -- li se __ e __ e __
+  \uprighttext cu -- li. __
 }
 
 bassNotenTractusLaetareCConst = \tempTranspose \relative a {
@@ -475,7 +475,7 @@ bassNotenTractusLaetareCConst = \tempTranspose \relative a {
   a2. b4 cis2 d2~ |
   d4 cis b a g fis e2 |
   d4 cis b a b a a'2~ | \mBreak
-  a2 gis a1 |
+  a2 \ficta gis a1 |
   d,2 fis g b~ |
   b a4 g fis1) |
   e\breve |
@@ -503,20 +503,21 @@ bassNotenTractusLaetareCConst = \tempTranspose \relative a {
 }
 
 bassTextTractusLaetareCConst = \lyricmode {
-  Qui con -- fi -- dunt, qui con -- fi -- dunt __ in __ Do --
-  mi -- no, si -- cut
+  Qui con -- fi -- dunt, \italictext 
+  qui con -- fi -- dunt __ \uprighttext in __ Do --
+  mi -- no, sic -- ut
   mons Sy --
-  on, mons Sy -- on, mons Sy -- on
-  non com -- mo -- ve -- bi -- tur, com --
-  mo -- ve -- bi -- tur in æ -- ter -- _
-  num in __ æ -- ter -- num,
-  qui __ ha -- bi -- tat in __
+  on, mons Sy -- on, \italictext mons Sy -- on
+  \uprighttext non com -- mo -- ve -- bi -- tur, \italictext com --
+  mo -- ve -- bi -- tur \uprighttext in æ -- ter -- _
+  num \italictext in __ æ -- ter -- num,
+  \uprighttext qui __ ha -- bi -- tat in __
   Je -- ru -- 
   sa -- lem. Mon --
   tes in cir -- cu -- i -- tu
   e -- jus: ex __ 
   hoc nunc et __
-  us -- que in __ se --
+  us -- que in __ \italictext se --
   cu -- lum __ se __
   e __ e --
   cu -- li. __
@@ -527,7 +528,7 @@ metronomZeileTractusLaetareCConst = \drummode {
 }
 \include "defTractusLaetareCConst.ly"
 
-%{Arbeitspartitur
+%***Arbeitspartitur
 #(set-global-staff-size 14)
 \book {
   \bookOutputName "TractusLaetareCConst-Arbeitspartitur"
@@ -565,4 +566,4 @@ metronomZeileTractusLaetareCConst = \drummode {
     \scoreTractusLaetareCConst
   }
 }
-Arbeitspartitur%}
+%Arbeitspartitur***

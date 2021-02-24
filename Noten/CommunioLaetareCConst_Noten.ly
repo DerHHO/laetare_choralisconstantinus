@@ -19,7 +19,7 @@ tempTranspose = #(define-music-function (parser location music)
                      #{ \transpose c c  $music #}))
 
 
-ficta = { \once \set suggestAccidentals = ##t }
+
 
 mBreak = {  }
 
@@ -31,6 +31,7 @@ globalCommunioLaetareCConst = {
   \bar "||"
   \revert Stem.length
   \undo \omit Dots
+  \undo \omit Accidental
 }
 
 vorspielpausenCommunioLaetareCConst = {
@@ -40,7 +41,7 @@ vorspielpausenCommunioLaetareCConst = {
 globalInitiumCommunioLaetareCConst = {
   \taktstil
   \accidentalStyle modern-voice
-  \key g\major
+  \key g\lydian
   \time 10/8
   \cadenzaOn
   \omit Staff.TimeSignature
@@ -143,7 +144,7 @@ altNotenCommunioLaetareCConst = \tempTranspose \relative g' {
   g2 ( fis1 ) e2 | % 14
   fis2 ( fis,2 a1 ~ | % 15
   a2 a2 a1 | % 16
-  b2 cis1 b2 ~ | % 17
+  b2 \ficta c1 b2 ~ | % 17
   b2 a2 b2 ) d2 ( ~ | % 18
   d4 e4 fis2 ) g2 g,2 \mBreak | % 19
   b1 ( a2 fis2 ~ | \barNumberCheck #20
@@ -164,7 +165,7 @@ altNotenCommunioLaetareCConst = \tempTranspose \relative g' {
   fis1 ( e1 | % 35
   fis2 ) a1 ( g2 ) | % 36
   a2 ( fis2 ) g2. ( fis4  \mBreak | % 37
-  e4 \ficta dis4 e1 ) d2 | % 38
+  e4  d4 e1 ) \ficta dis2 | % 38
   e1 r1 | % 39
   g1 ( e2 g2 ~ | \barNumberCheck #40
   g4 fis4 ) d2 r2 e2 ( ~ | % 41
@@ -213,7 +214,7 @@ tenorNotenCommunioLaetareCConst = \tempTranspose \relative c' {
   cis1. a2 | % 12
   cis1 ( d2 e2 ) ~ \mBreak | % 13
 
-  e4 ( d4 b2 ) cis1 | % 14
+  e4 ( d4 b2 ) \ficta c1 | % 14
   b1 ( e,1 ~ | % 15
   e2 e2 e1 | % 16
   fis2 g1 fis2 ~ | % 17
@@ -241,7 +242,7 @@ tenorNotenCommunioLaetareCConst = \tempTranspose \relative c' {
   a1 ( b1 ) | % 36
   r2 a2 e'1 ~ \mBreak | % 37
 
-  e2 cis2 b1 | % 38
+  e2 \ficta c2 b1 | % 38
   e,1 r2 b'2 ~ | % 39
   b2 b2 b1 ~ | \barNumberCheck #40
   b1 b2( g2  ~ | % 41
@@ -290,7 +291,7 @@ bassNotenCommunioLaetareCConst = \tempTranspose \relative g {
   b1 cis1 ~ | % 15
   cis2 a2 cis1 ( | % 16
   d2 e2. d4 b2 ) | % 17
-  cis1 b1 ( | % 18
+  \ficta c1 b1 ( | % 18
   d1 ) g1 \mBreak | % 19
   e1 fis1 | \barNumberCheck #20
   d1 e1 | % 21
@@ -343,7 +344,7 @@ metronomZeileCommunioLaetareCConst = \drummode {
 }
 \include "defCommunioLaetareCConst.ly"
 
-%{Arbeitspartitur
+%***Arbeitspartitur
 #(set-global-staff-size 14)
 \book {
   \bookOutputName "CommunioLaetareCConst-Arbeitspartitur"
@@ -381,4 +382,4 @@ metronomZeileCommunioLaetareCConst = \drummode {
     \scoreCommunioLaetareCConst
   }
 }
-Arbeitspartitur%}
+%Arbeitspartitur***
