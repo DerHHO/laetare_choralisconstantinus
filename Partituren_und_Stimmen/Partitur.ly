@@ -23,7 +23,7 @@ tempTranspose = #(define-music-function (parser location music)
                           (note (or (ly:get-option 'note) 0))
                           (alteration (or (ly:get-option 'alteration) 0))
                           (to (ly:make-pitch octave note alteration)))
-                     #{ \transpose c c  $music #})) 
+                     #{ \transpose c c  $music #}))
 
 
 
@@ -51,20 +51,20 @@ print-all-headers = ##f
     poet = \herausgeber
     arranger = \arrangeur
     tagline = \schlusszeile
-    instrument = "Partitur (C)"
+    instrument = "Partitur"
   }
-  
-  
+
+
   \score {
     \header {
-		piece = \markup { \larger \larger \larger { Introitus } }
-	}
-    \removeWithTag #'transponierendepartitur 
+      piece = \markup { \larger \larger \larger { Introitus } }
+    }
+    \removeWithTag #'transponierendepartitur
     \removeWithTag #'klavierauszug
     \removeWithTag #'direction
     \removeWithTag #'einzelstimme
     \scoreIntroitusLaetareCConst
-    
+
     \layout {
       \context {
         \Staff
@@ -72,16 +72,23 @@ print-all-headers = ##f
       }
     }
   }
+
+  \markup {
+    \fill-line { \textDeutschIntroitusLaetareCConst }
+
+  }
+  \markup { \vspace #7 }
+
   \score {
     \header {
-		piece = \markup { \larger \larger \larger { Tractus } }
-	}
-    \removeWithTag #'transponierendepartitur 
+      piece = \markup { \larger \larger \larger { Tractus } }
+    }
+    \removeWithTag #'transponierendepartitur
     \removeWithTag #'klavierauszug
     \removeWithTag #'direction
     \removeWithTag #'einzelstimme
     \scoreTractusLaetareCConst
-    
+
     \layout {
       \context {
         \Staff
@@ -89,16 +96,23 @@ print-all-headers = ##f
       }
     }
   }
+
+  \markup {
+    \fill-line { \textDeutschTractusLaetareCConst }
+
+  }
+  \markup { \vspace #7 }
+
   \score {
     \header {
-		piece = \markup { \larger \larger \larger { Communio } }
-	}
-    \removeWithTag #'transponierendepartitur 
+      piece = \markup { \larger \larger \larger { Communio } }
+    }
+    \removeWithTag #'transponierendepartitur
     \removeWithTag #'klavierauszug
     \removeWithTag #'direction
     \removeWithTag #'einzelstimme
     \scoreCommunioLaetareCConst
-    
+
     \layout {
       \context {
         \Staff
@@ -106,7 +120,9 @@ print-all-headers = ##f
       }
     }
   }
-    
-  
-  
+  \markup {
+    \fill-line { \textDeutschCommunioLaetareCConst }
+
+  }
+
 }

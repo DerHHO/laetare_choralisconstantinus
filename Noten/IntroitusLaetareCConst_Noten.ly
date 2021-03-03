@@ -481,6 +481,20 @@ bassTextIntroitusLaetareCConst = \lyricmode {
   mi -- ni i -- bi -- mus \italictext i -- _ bi -- \uprighttext mus. __
 }
 
+textLateinIntroitusLaetareCConst = \markup {
+  \column {
+    
+  }
+}
+
+textDeutschIntroitusLaetareCConst = \markup {
+  \center-column {
+    \line { Freue dich, Jerusalem! Seid fröhlich zusammen ihr alle, die ihr traurig wart. }
+    \line { Freut euch und trinkt euch satt an der Quelle göttlicher Tröstung. }
+    \line { Ich freute mich, als man mir sagte: „Wir pilgern zum Haus des Herrn.“ }
+  }
+}
+
 metronomZeileIntroitusLaetareCConst = \drummode {
 }
 \include "defIntroitusLaetareCConst.ly"

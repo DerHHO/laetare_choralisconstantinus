@@ -523,6 +523,12 @@ bassTextTractusLaetareCConst = \lyricmode {
   cu -- li. __
 }
 
+textDeutschTractusLaetareCConst = \markup {
+  \center-column {
+    \line { Wer auf den Herrn vertraut, gleicht dem Sionsberg, der niemals wankt, der ewig bleibt. }
+    \line { Jerusalem ist von Bergen umgeben, so umhegt der Herr sein Volk von nun an bis in Ewigkeit. }
+  }
+}
 
 metronomZeileTractusLaetareCConst = \drummode {
 }

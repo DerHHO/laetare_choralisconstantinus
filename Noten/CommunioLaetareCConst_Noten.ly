@@ -338,7 +338,12 @@ bassTextCommunioLaetareCConst = \lyricmode {
   Do -- mi -- ne.
 }
 
-
+textDeutschCommunioLaetareCConst = \markup {
+  \center-column {
+    \line { Jerusalem, du starke Stadt, dicht gebaut und fest gefügt. }
+    \line { Dorthin ziehen die Stämme hinauf, die Stämme des Herrn, den Namen des Herrn zu preisen. }
+  }
+}
 
 metronomZeileCommunioLaetareCConst = \drummode {
 }
