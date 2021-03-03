@@ -107,7 +107,7 @@ sopranNotenIntroitusLaetareCConst = \tempTranspose \relative g' {
   R1*6 |
   r1 r2 d~ | \mBreak
   d2 c2 b d(~ |
-  d4 b) b2( a4 g fis e) |
+  d4 c) b2( a4 g fis e) |
   d1 r |
   R1*8 | \mBreak
   g1 r2 g |
@@ -273,7 +273,7 @@ altTextIntroitusLaetareCConst = \lyricmode {
   ti -- a __ fu --
   i -- stis: ut ex -- ul -- te --
   tis, et sa -- ti -- e -- mi -- ni ab
-  u -- be - ri -- bus con -- so -- la -- ti -- o -- nis con --
+  u -- be -- ri -- bus con -- so -- _ la -- ti -- o -- nis con --
   so -- la -- ti -- o -- nis con -- so -- la -- ti -- o --
   nis e -- ius. __
 
@@ -363,7 +363,7 @@ tenorNotenIntroitusLaetareCConst = \tempTranspose \relative g {
 tenorTextIntroitusLaetareCConst = \lyricmode {
   Hie -- ru -- sa -- lem: fa -- ci -- te
   qui di -- li -- gi --
-  tis __ e -- am: gau -- de -- te cum __
+  tis __ e -- am: gau -- de -- te cum 
   læ -- ti -- ti -- a,
   fu -- i
   stis:
