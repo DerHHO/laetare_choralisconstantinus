@@ -492,6 +492,7 @@ textDeutschIntroitusLaetareCConst = \markup {
     \line { Freue dich, Jerusalem! Seid fröhlich zusammen ihr alle, die ihr traurig wart. }
     \line { Freut euch und trinkt euch satt an der Quelle göttlicher Tröstung. }
     \line { Ich freute mich, als man mir sagte: „Wir pilgern zum Haus des Herrn.“ }
+    \line { (Jes 66,10.11; Ps 120,1) }
   }
 }
 
