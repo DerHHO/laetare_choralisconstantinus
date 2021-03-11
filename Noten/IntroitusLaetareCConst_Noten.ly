@@ -403,12 +403,12 @@ bassNotenIntroitusLaetareCConst = \tempTranspose \relative g, {
   g1) r |
   r2 g1( fis2 |
   e1) r2 g~ |
-  g fis e a,( |
+  g( fis) e a,( |
   e'1 d) |
   g, r2 g( |
   d'1) c4( d) e( fis |
-  g2 a fis d | \mBreak
-  e2 b) c1 |
+  g2 a fis d) | \mBreak
+  e2( b) c1 |
   b2( b'1 a2 |
   b4 a g fis e2 d |
   b1 c |
