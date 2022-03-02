@@ -136,11 +136,10 @@ sopranNotenTractusLaetareCConst = \tempTranspose \relative a' {
 
 sopranTextTractusLaetareCConst = \lyricmode {
   Qui con -- fi -- dunt in __
-  Do -- mi -- no sic --
-  ut mons Sy --
-  on Sy -- on __
-  non com -- mo -- ve -- bi
-  tur in æ -- ter --
+  Do -- mi -- no __ sic -- ut __ 
+  mons Sy -- on Sy -- on __
+  non com -- mo -- ve -- bi __
+  tur in __ æ -- ter --
   num __ \italictext in æ -- ter -- num, __
   \uprighttext qui ha -- bi -- tat
   in Je -- ru --
@@ -148,7 +147,7 @@ sopranTextTractusLaetareCConst = \lyricmode {
   tes in cir -- cu -- i --
   tu
   e -- jus
-  nunc
+  nunc __
   in se -- cu -- lum __
   se -- cu -- li. __
 }
@@ -179,7 +178,7 @@ altNotenTractusLaetareCConst = \tempTranspose \relative c' {
   fis2 g e fis~ |
   fis e) d1 |
   r1. a2( | \mBreak
-  b2 g e'1) |
+  b2 e, e'1) |
   r2 e( d) cis |
   a1 b( |
   g' fis~ |
@@ -260,8 +259,8 @@ altNotenTractusLaetareCConst = \tempTranspose \relative c' {
 altTextTractusLaetareCConst = \lyricmode {
   Qui con -- fi -- dunt __ in __
   Do -- mi -- no si --
-  cut mons Sy --
-  on non
+  cut __ mons Sy --
+  on non __
   com -- mo -- ve -- bi -- tur
   in æ -- ter --
   num qui
@@ -270,9 +269,9 @@ altTextTractusLaetareCConst = \lyricmode {
   sa -- lem. Mon --
   tes in cir -- cu -- i
   tu 
-  e -- jus ex hoc 
-  nunc et us --
-  que in __ se -- cu -- lum se __
+  e -- jus ex hoc __
+  nunc et __ us -- que 
+  in __ se -- cu -- lum se __
   e __ e __ e __ e __
   e -- cu -- li.
 }
@@ -387,12 +386,12 @@ tenorTextTractusLaetareCConst = \lyricmode {
   non, \uprighttext non com -- mo -- ve -- bi -- tur, \italictext non com --
   mo -- ve -- bi -- tur __ \uprighttext in æ -- ter --
   num \italictext qui __ ha -- bi -- tat, \uprighttext qui  __
-  ha -- bi -- tat in __ \italictext Hie --
+  ha -- bi -- tat __ in __ \italictext Hie --
   ru -- sa -- lem, __ \uprighttext Je -- ru -- 
   sa -- lem. Mon --
   tes __ in __ cir -- cu -- i --
   tu \italictext e -- _ jus \uprighttext ex __
-  hoc nunc et us -- que __
+  hoc nunc __ et us -- que __
   in se -- cu -- lum se --
   \italictext se -- cu -- li se __ e __ e __
   \uprighttext cu -- li. __
@@ -503,10 +502,10 @@ bassNotenTractusLaetareCConst = \tempTranspose \relative a {
 bassTextTractusLaetareCConst = \lyricmode {
   Qui con -- fi -- dunt, \italictext 
   qui con -- fi -- dunt __ \uprighttext in __ Do --
-  mi -- no, sic -- ut
+  mi -- no, sic -- ut __
   mons Sy --
-  on, mons Sy -- on, \italictext mons Sy -- on
-  \uprighttext non com -- mo -- ve -- bi -- tur, \italictext com --
+  on, mons Sy -- on, \italictext mons Sy -- on __
+  \uprighttext non __ com -- mo -- ve -- bi -- tur, \italictext com --
   mo -- ve -- bi -- tur \uprighttext in æ -- ter -- _
   num \italictext in __ æ -- ter -- num,
   \uprighttext qui __ ha -- bi -- tat in __
@@ -514,7 +513,7 @@ bassTextTractusLaetareCConst = \lyricmode {
   sa -- lem. Mon --
   tes in cir -- cu -- i -- tu
   e -- jus: ex __ 
-  hoc nunc et __
+  hoc nunc __ et __
   us -- que in __ \italictext se --
   cu -- lum __ se __
   e __ e --
