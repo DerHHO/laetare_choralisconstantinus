@@ -126,9 +126,8 @@ sopranNotenTractusLaetareCConst = \tempTranspose \relative a' {
   d1( cis d b | \mBreak
   a2. g4 a2 b~ |
   b4 a4 a1 g2 |
-  \time 6/2 a1) e'2( d2. cis4 d2 |
-  b1. cis2. b4 cis2 |
-  \time 2/1 
+  \tuplet 3/2 { a1) e'2( } \tuplet 3/2 { d2. cis4 d2 } |
+  \tuplet 3/2 { b1. } \tuplet 3/2 { cis2. b4 cis2 } |
   a2 d cis b~ |
   b2 a1) g2 |
   a\breve ~ |
@@ -250,9 +249,8 @@ altNotenTractusLaetareCConst = \tempTranspose \relative c' {
   r2 fis( g1) | \mBreak
   r2 e( fis1) |
   r2 d( e1) |
-  r1 r1 r2 fis( |
-  g1) r1 r2 e2( 
-  \time 2/1 
+  r1 r2 fis( |
+  g1) r2 e2( |
   fis1) r1 |
   r2 d( e g) |
   fis1( e) |
@@ -372,9 +370,9 @@ tenorNotenTractusLaetareCConst = \tempTranspose \relative c' {
   r2 d( e1) | \mBreak
   r2 a,2( d1 |
   cis2) a b1( |
-  \time 6/2
-  a) r1 r2 d2( |
-  e1) r1 r2 a,( |
+  
+  a) r2 d2( |
+  e1) r2 a,( |
   d1) r2 g, | \mBreak
   a1( b) |
   a\breve ~ |
@@ -494,8 +492,8 @@ bassNotenTractusLaetareCConst = \tempTranspose \relative a {
   b1) r2 e,( | \mBreak
   a1) r2 d, |
   fis1( e) |
-  \time 6/2 r1 r2 a2( b1) |
-  r2 e,( a1) r1 |
+  r2 a2( b1) |
+  r2 e,( a1) |
   r2 d,( e g) |
   fis1( e) |
   a,\breve ~ |
