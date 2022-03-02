@@ -107,16 +107,14 @@ sopranNotenCommunioLaetareCConst = \tempTranspose \relative g' {
 
 sopranTextCommunioLaetareCConst = \lyricmode {
   Hi -- e -- ru -- sa -- lem,
-  Quae
-  ae -- di -- fi -- ca -- tur ut ci --
-  vi -- tas cu -- ius  par -- ti --
-  ci -- pa --    ti -- "o." e -- ius in id --
-  ip -- "sum:" il -- luc e -- nim tri -- "bus," tri -- bus Do --
-  mi -- "ni," no --
-  mi -- ni tu --
-  "o,"  Do --
-  mi --
-  "ne."
+  Quæ
+  æ -- di -- fi -- ca -- tur ut ci --
+  vi -- tas cu -- ius __
+  par -- ti -- ci -- pa --    ti -- o. 
+  e -- ius in id --
+  ip -- sum: il -- luc e -- nim tri -- bus,
+  tri -- bus Do -- mi -- ni, 
+  no -- mi -- ni tu -- o, __  Do -- mi -- ne.
 }
 
 anfangspauseCommunioLaetareCConst = {
@@ -182,19 +180,16 @@ altNotenCommunioLaetareCConst = \tempTranspose \relative g' {
 }
 
 altTextCommunioLaetareCConst = \lyricmode {
-  Quae
-  ae -- di -- fi -- ca -- tur ut ci --
-  vi -- "tas,"    cu --
-  ius par -- ti -- ci -- pa --    ti --
-  o
+  Quæ æ -- di -- fi -- ca -- tur ut ci --
+  vi -- tas,
+  cu -- ius par -- ti -- ci -- pa --    ti -- o __
   e --   ius in id --
-  ip -- "sum:"
-  il -- luc e -- nim     a
-  -- scen -- de -- runt  tri --
-  "bus," tri -- bus ad con -- fi --  ten --
-  dum no --    mi -- ni tu --
-  "o," tu --   "o,"  Do
-  -- mi --  "ne."
+  ip -- sum:
+  il -- luc e -- nim __
+  a -- scen -- de -- runt __ 
+  tri -- bus, tri -- bus ad con -- fi --  ten -- dum 
+  no -- mi -- ni tu -- o, tu -- o, __  
+  Do -- mi -- ne.
 }
 
 tenorNotenCommunioLaetareCConst = \tempTranspose \relative c' {
@@ -261,15 +256,15 @@ tenorNotenCommunioLaetareCConst = \tempTranspose \relative c' {
 }
 
 tenorTextCommunioLaetareCConst = \lyricmode {
-  Quae ae -- di -- fi -- ca -- tur
+  Quæ æ -- di -- fi -- ca -- tur
   ut ci -- vi -- tas cu -- ius
-  par -- ti -- ci -- pa -- ti -- o
-  e -- ius in id -- ip -- sum:
+  par -- ti -- ci -- pa -- ti -- o __
+  e -- ius in id -- ip -- sum: __
   il -- luc e -- nim a -- scen -- de -- runt tri -- bus,
   tri -- bus Do -- mi -- ni,
   ad con -- fi -- ten -- dum
   ad con -- fi -- ten -- dum
-  no -- mi -- ni  tu -- o,
+  no -- mi -- ni  tu -- o, 
   Do -- mi -- ne.
 }
 
@@ -328,11 +323,12 @@ bassNotenCommunioLaetareCConst = \tempTranspose \relative g {
 }
 
 bassTextCommunioLaetareCConst = \lyricmode {
-  Quae ae -- di -- fi -- ca -- tur ut ci -- vi -- tas,
-  cu -- ius   par -- ti -- ci -- pa -- ti -- o e -- ius
+  Quæ æ -- di -- fi -- ca -- tur ut ci -- vi -- tas,
+  cu -- ius __ par -- ti -- ci -- pa -- ti -- o __
+  e -- ius
   in id -- ip -- sum:
   il -- luc e -- nim as -- cen -- de -- runt tri -- bus,
-  tri -- bus Do -- mi -- ni,
+  tri -- bus Do -- mi -- ni, __
   ad con -- fi --    ten -- dum
   no -- mi -- ni tu -- o,
   Do -- mi -- ne.

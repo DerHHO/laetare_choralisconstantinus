@@ -161,7 +161,7 @@ sopranNotenIntroitusLaetareCConst = \tempTranspose \relative g' {
 
 sopranTextIntroitusLaetareCConst = \lyricmode {
   Læ -- ta -- re
-  Hie -- ru -- sa -- lem: et con -- ven -- tum
+  Hie -- ru -- sa -- lem: et __ con -- ven -- tum
   om -- nes
   gau -- de -- te cum læ --
   ti -- ti -- a,
@@ -266,7 +266,7 @@ altNotenIntroitusLaetareCConst = \tempTranspose \relative c' {
 }
 
 altTextIntroitusLaetareCConst = \lyricmode {
-  Hie -- ru -- sa -- lem: et con -- ven -- tum
+  Hie -- ru -- sa -- lem: et __ con -- ven -- tum
   om -- nes
   gau -- de -- te cum __
   læ -- ti -- ti -- a, qui in tri -- sti --
@@ -274,11 +274,11 @@ altTextIntroitusLaetareCConst = \lyricmode {
   i -- stis: ut ex -- ul -- te --
   tis, et sa -- ti -- e -- mi -- ni ab
   u -- be -- ri -- bus con -- so -- _ la -- ti -- o -- nis con --
-  so -- la -- ti -- o -- nis con -- so -- la -- ti -- o --
+  so -- la -- ti -- o -- nis __ con -- so -- la -- ti -- o --
   nis e -- ius. __
 
   In do -- mum Do -- mi --
-  ni i -- bi -- mus __ \italictext i -- bi -- \uprighttext mus. __
+  ni __ i -- bi -- mus __ \italictext i -- bi -- \uprighttext mus. __
 
 }
 
@@ -361,18 +361,18 @@ tenorNotenIntroitusLaetareCConst = \tempTranspose \relative g {
 }
 
 tenorTextIntroitusLaetareCConst = \lyricmode {
-  Hie -- ru -- sa -- lem: fa -- ci -- te
+  Hie -- ru -- sa -- lem: fa -- ci -- te __
   qui di -- li -- gi --
   tis __ e -- am: gau -- de -- te cum 
   læ -- ti -- ti -- a,
   fu -- i
   stis:
-  et sa -- ti -- e -- mi -- ni __
+  et __ sa -- ti -- e -- mi -- ni __
   ab u -- be -- ri -- bus con --
   so -- la -- ti -- o --
   nis e -- ius.
 
-  In do -- mum Do -- mi -- ni i -- bi -- mus.
+  In do -- mum Do -- mi -- ni i -- bi -- mus. __
 }
 
 bassNotenIntroitusLaetareCConst = \tempTranspose \relative g, {
@@ -470,7 +470,7 @@ bassTextIntroitusLaetareCConst = \lyricmode {
   Hie -- ru -- sa -- lem: fa --
   ci -- te om -- nes, qui di -- li -- gi -- tis __
   e -- am: __ gau -- de -- te cum __
-  cum læ -- ti -- ti -- a, qui in -- tri --
+  cum __ læ -- ti -- ti -- a, qui in -- tri --
   sti -- ti -- a __ fu -- i -- _
   stis: ut ex -- ul -- te -- tis,
   et sa -- ti -- e -- mi -- ni
