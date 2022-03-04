@@ -298,7 +298,7 @@ tenorNotenTractusLaetareCConst = \tempTranspose \relative c' {
   r2 e' fis1 |
   d2( e cis b) |
   d2( e4 fis) g2( fis~ |
-  fis4 e4 e2 d1 | \mBreak
+  fis4 e4 e1 d2 | \mBreak
   e2 d4 cis b2. a4 |
   b1) a |
   d1 e~ |
